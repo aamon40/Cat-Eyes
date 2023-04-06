@@ -10,6 +10,16 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
 }
 
+body {
+    background: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+p {
+    line-height: 1rem;
+    letter-spacing: 0.1em;
+}
 `;
 export default GlobalStyles;
